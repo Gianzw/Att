@@ -1,0 +1,30 @@
+void main (){
+  double n1 = 4.0;
+  double n2 = 6.5;
+  double n3 = 7.0;
+  double n4 = 6.5;
+  
+  double media = (n1 + n2 + n3 + n4) / 4;
+  print ('A média obtida foi: $media');
+  
+  if(media >= 7){
+    print('Aluno Aprovado');
+  }  
+  
+  if(media < 5){
+    print('Aluno Reprovado');
+  }
+  if(media > 5 && media < 6.9){  
+    print('Aluno em Exame');
+    print('Nota do Exame = 5');
+    double notaDoExame = 5;
+    
+   double mediaFinal = (media + notaDoExame) / 2;
+    
+    if(media > 5){
+      print('Aluno Aprovado');
+      print('A média final foi: $mediaFinal');
+    }
+  }
+    
+}
